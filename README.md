@@ -37,6 +37,11 @@ SaaS de gestão para clínicas com foco em no-show, presença médica, mensagens
 - Retornos >180 dias com ação de campanha (`/retornos`).
 - Dashboard operacional (`/dashboard`).
 
+
+## Exportar projeto em ZIP
+- Gere o arquivo ZIP completo com: `npm run export:zip`
+- Saída: `dist/clinic-os-mvp.zip`
+
 ## Deploy Netlify (free)
 1. Criar site no Netlify apontando para este repositório.
 2. Build command: `npm run build -w @clinic-os/web`
